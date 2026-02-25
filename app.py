@@ -271,7 +271,7 @@ html = """
   <div class="hero-inner">
 
     <div class="presenter">Masterclass by Mironda Deel</div>
-    <h1>Grow Your Cleaning Biz<br><span>in 2026 — Starting Tomorrow</span></h1>
+    <h1>Grow Your Cleaning Biz<br><span>in 2026</span></h1>
     <p class="hero-sub">How to Attract Premium Clients, Increase Sales, and Scale Without Burnout</p>
     <p class="hero-quote">"Freedom in business comes from systems and choosing clients that fit your values."</p>
 
@@ -285,6 +285,47 @@ html = """
         <div class="price-sub">One private 60-minute session with Mironda &nbsp;·&nbsp; Limited spots</div>
       </div>
     </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ══ CTA #1 ══ -->
+<section class="zelle-sec" style="padding:4rem 2rem;">
+  <div class="zelle-inner">
+    <span class="sec-label" style="color:#f0c040;">Private 1-on-1 Consultation</span>
+    <h2>Book Your Session Now</h2>
+    <p class="closer">60 minutes with Mironda — mapped to your business, your clients, your goals.</p>
+    <div class="zelle-price">
+      <span class="old2">$299</span>
+      <span class="new2">$99</span>
+      <span class="tag">Limited spots available · Lock in your time today</span>
+    </div>
+    <div class="steps-wrap">
+      <div class="step-card step1">
+        <div class="step-top">
+          <span class="step-badge zelle-b">⚡ Step 1</span>
+          <span class="step-title">Send $99 via Zelle</span>
+        </div>
+        <div class="phone-box">
+          <div class="phone-label">Zelle Number</div>
+          <div class="phone-num">770-369-6875</div>
+        </div>
+        <p>Open your banking app, select Zelle, and send <strong>$99</strong> to the number above to reserve your spot.</p>
+      </div>
+      <div class="step-card step2">
+        <div class="step-top">
+          <span class="step-badge text-b">📱 Step 2</span>
+          <span class="step-title">Text to Confirm</span>
+        </div>
+        <div class="phone-box">
+          <div class="phone-label">Text This Number</div>
+          <div class="phone-num">770-369-6875</div>
+        </div>
+        <p>After sending payment, text your <strong>name + "PAID"</strong> to <strong>770-369-6875</strong> and your appointment time will be confirmed.</p>
+      </div>
+    </div>
+    <p class="secure">🔒 &nbsp; Secure &nbsp;·&nbsp; Instant &nbsp;·&nbsp; No account required to receive Zelle</p>
   </div>
 </section>
 
@@ -507,7 +548,7 @@ html = """
 <!-- ══ ZELLE CTA ══ -->
 <section class="zelle-sec">
   <div class="zelle-inner">
-    <span class="sec-label" style="color:#f0c040;">It's Tomorrow. Start Today.</span>
+    <span class="sec-label" style="color:#f0c040;">Claim Your Spot Now</span>
     <h2>Claim Your 1-on-1 Session</h2>
     <p class="closer">
       60 minutes. Private. Focused entirely on your business.<br>
