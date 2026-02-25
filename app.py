@@ -15,6 +15,7 @@ st.markdown("""
 #MainMenu, footer, header {visibility: hidden;}
 .block-container {padding: 0 !important; margin: 0 !important; max-width: 100% !important;}
 section.main > div {padding: 0 !important;}
+iframe {width: 100% !important; border: none !important;}
 </style>
 """, unsafe_allow_html=True)
 
@@ -620,7 +621,19 @@ html = """
 </footer>
 
 </body>
-</html>
+<script>
+  // Tell the parent Streamlit iframe to resize to full content height
+  function sendHeight() {
+    const h = document.documentElement.scrollHeight;
+    window.parent.postMessage({type: 'streamlit:setFrameHeight', height: h}, '*');
+  }
+  window.addEventListener('load', sendHeight);
+  window.addEventListener('resize', sendHeight);
+  // Also fire after fonts/images load
+  setTimeout(sendHeight, 500);
+  setTimeout(sendHeight, 1500);
+</script>
+</body>
 """
 
-components.html(html, height=7200, scrolling=False)
+components.html(html, height=15000, scrolling=True)
